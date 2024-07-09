@@ -19,6 +19,7 @@ check_and_install() {
 }
 
 # Step 1: Download saraf.py using wget
+echo "Downloading saraf.py from GitHub..."
 wget https://raw.githubusercontent.com/moshtaqtsr/SARAF/main/notebook/saraf.py -O saraf.py
 if [ $? -ne 0 ]; then
     echo "Failed to download saraf.py. Please check the URL and try again."
