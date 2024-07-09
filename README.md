@@ -5,8 +5,6 @@ SARAF is a versatile tool designed for processing and refining genome assemblies
 ### Dependencies
 Python 3
 Biopython library (Bio.Seq, Bio.SeqIO, Bio.SeqRecord)
-### Usage
-The script accepts a command followed by input and output file options and additional arguments based on the command. The general usage pattern is:
 
 bash
 Copy code
