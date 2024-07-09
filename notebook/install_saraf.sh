@@ -18,11 +18,18 @@ check_and_install() {
     fi
 }
 
-# Step 1: Copy saraf.py to a directory in your PATH
-chmod +x saraf.py
-sudo cp saraf.py /usr/local/bin/saraf
+# Step 1: Download saraf.py using wget
+wget https://raw.githubusercontent.com/moshtaqtsr/SARAF/main/notebook/saraf.py -O saraf.py
+if [ $? -ne 0 ]; then
+    echo "Failed to download saraf.py. Please check the URL and try again."
+    exit 1
+fi
 
-# Step 2: Check and Install Required Libraries
+# Step 2: Make saraf.py executable and move it to a directory in your PATH
+chmod +x saraf.py
+sudo mv saraf.py /usr/local/bin/saraf
+
+# Step 3: Check and Install Required Libraries
 required_libraries=(
     "biopython:Bio"
 )
