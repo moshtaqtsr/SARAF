@@ -127,7 +127,7 @@ You can easily install SARAF using the provided installation script. Follow the 
    Open a terminal and run the following command to download the `install_saraf.sh` script from the SARAF GitHub repository:
 
    ```sh
-   wget https://github.com/moshtaqtsr/SARAF/raw/main/install_saraf.sh
+   wget wget https://raw.githubusercontent.com/moshtaqtsr/SARAF/main/notebook/install_saraf.sh
    ```
 
 2. **Make the script executable:**
