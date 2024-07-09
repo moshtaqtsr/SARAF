@@ -118,3 +118,33 @@ saraf <command> -i <input_file> -o <output_file> [additional_arguments]
      saraf -h
      ```
 
+### SARAF Installation Instructions
+
+You can easily install SARAF using the provided installation script. Follow the steps below:
+
+1. **Download the installation script using `wget`:**
+
+   Open a terminal and run the following command to download the `install_saraf.sh` script from the SARAF GitHub repository:
+
+   ```sh
+   wget https://github.com/moshtaqtsr/SARAF/raw/main/install_saraf.sh
+   ```
+
+2. **Make the script executable:**
+
+   After downloading the script, you need to make it executable by running:
+
+   ```sh
+   chmod +x install_saraf.sh
+   ```
+
+3. **Run the installation script:**
+
+   Finally, execute the script to install SARAF:
+
+   ```sh
+   ./install_saraf.sh
+   ```
+
+These commands will download the `install_saraf.sh` script, give it execution permissions, and run it to complete the installation of SARAF.
+
