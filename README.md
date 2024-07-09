@@ -1,5 +1,5 @@
 ## SARAF: Sequence Assembly Refining and Filtering
-Overview
+# Overview
 SARAF is a versatile tool designed for processing and refining genome assemblies in FASTA format. It provides several options for filtering, manipulating, and transforming contigs based on specified criteria.
 
 Dependencies
