@@ -11,7 +11,7 @@ Copy code
 saraf <command> -i <input_file> -o <output_file> [additional_arguments]
 ## Authors
 
-- [@moshtaqtsr](https://github.com/moshtaqtsr)
+- [@moshtaqtsr](https://github.com/moshtaqtsr) (Mushtaq AL-Rubaye)
 
 
 ## License
